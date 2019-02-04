@@ -1,0 +1,35 @@
+mutation {
+  reservation1: createReservation(
+    data: {
+      name: "John Hancock",
+      hotelName: "Omni Parker Hotel",
+      arrivalDate: "1/12/19",
+      departureDate: "1/24/19",
+    }
+  ) {
+    id
+  }
+
+  reservation2: createReservation(
+    data: {
+      name: "Josiah Bartlett"
+      hotelName: "Omni Parker Hotel"
+      arrivalDate: "1/12/19"
+      departureDate: "1/24/19"
+    }
+  ) {
+    id
+  }
+
+  reservation3: createReservation(
+    data: {
+      name: "William Whipple"
+      hotelName: "Omni Parker Hotel"
+      arrivalDate: "1/12/19"
+      departureDate: "1/24/19"
+    }
+  ) {
+    id
+  }
+
+}
